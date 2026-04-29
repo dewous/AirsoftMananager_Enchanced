@@ -1,4 +1,3 @@
-/* ---- Reset root ---- */
 #root {
   width: 100%;
   border: none;
@@ -7,7 +6,6 @@
   min-height: unset;
 }
 
-/* ---- Wrapper / Theme ---- */
 .app-wrapper {
   min-height: 100vh;
   background-color: #f0f2f5;
@@ -22,7 +20,6 @@
   color: #dde1f0;
 }
 
-/* ---- Navbar ---- */
 .navbar {
   display: flex;
   align-items: center;
@@ -86,14 +83,12 @@
   background-color: rgba(255, 255, 255, 0.22);
 }
 
-/* ---- Page container ---- */
 .container {
   max-width: 860px;
   margin: 0 auto;
   padding: 28px 20px 40px;
 }
 
-/* ---- Headings ---- */
 h1 {
   text-align: center;
   font-size: 26px;
@@ -103,7 +98,6 @@ h1 {
   letter-spacing: -0.3px;
 }
 
-/* ---- Stats bar ---- */
 .stats-bar {
   display: flex;
   gap: 20px;
@@ -131,7 +125,6 @@ h1 {
   color: #dde1f0;
 }
 
-/* ---- Inputs & selects ---- */
 input,
 select,
 button {
@@ -167,7 +160,6 @@ button:active {
   transform: scale(0.97);
 }
 
-/* ---- Player form ---- */
 .player-form {
   display: flex;
   gap: 10px;
@@ -208,13 +200,11 @@ button:active {
   background-color: rgba(255, 255, 255, 0.22);
 }
 
-/* ---- Search ---- */
 .search-input {
   width: 100%;
   margin: 8px 0 14px;
 }
 
-/* ---- Filter ---- */
 .filter-buttons {
   margin: 0 0 16px;
   display: flex;
@@ -255,7 +245,6 @@ button:active {
   background-color: #3a3f6a;
 }
 
-/* ---- Player card ---- */
 .player-item {
   display: flex;
   align-items: center;
@@ -328,7 +317,6 @@ button:active {
   color: white;
 }
 
-/* ---- Empty / Status ---- */
 .empty-msg {
   text-align: center;
   color: #999;
@@ -350,7 +338,6 @@ button:active {
   color: #e74c3c;
 }
 
-/* ---- News page ---- */
 .news-filter {
   display: flex;
   gap: 8px;
